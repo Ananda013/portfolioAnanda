@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background:rgb(14, 9, 27) ;
+    
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+header img{
+    height: 150px;
+    margin-top: 100px;
+}
+
+header p{
+    margin-top: 10px;
+    color: rgb(182, 179, 179);
+}
+
+section{
+    text-align: center;
+    margin: 30px;   
+}
+
+button{
+    width: 200px;
+    font-size: 20px;
+    padding: 20px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+button:hover{
+    border: 1px solid white;   
+}
+
+section img{
+    position: relative;
+    top: 8px;
+    right: 5px;
+}
+
+.linkedin{
+   background-image:linear-gradient(to right, #6C86E4, #4E59C1, #3330A2);
+}
+
+.portfolio{
+    background-image: linear-gradient(to right, #742EDA, #934FF7);
+}
+
+.github{
+    background-image: linear-gradient(to right, #1F9B95, #308BA9);
+}
+

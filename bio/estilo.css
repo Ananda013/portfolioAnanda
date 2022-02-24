@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --bold: rgb(17, 14, 27);
+    --light: rgb(14, 9, 27);
+}
+
+body{
+    background: var(--light);
+}
+
+body p{
+    color: #CCCCCC;
+    font-size: 15px;
+}
+
+header{
+    border-bottom:1px solid rgba(111, 111, 111, 0.35);
+}
+
+nav{
+    border-bottom:1px solid rgba(111, 111, 111, 0.35);
+    position: fixed;
+    background: var(--light);
+    height: 80px;
+    width: 100%;
+}
+
+nav .logo{
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 10px;
+
+    font-weight:bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 1px;
+}
+
+a.active, a:hover{
+    color: #672fd0;
+    transition: .5s;
+    font-weight: bold;
+}
+
+.inicio img{
+    height: 160px;
+    margin-bottom: 40px;
+}
+
+.inicio{
+    text-align: center;
+    margin: 150px;
+}
+
+.inicio h1{ 
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.inicio button{
+    margin: 30px auto;
+    width: 130px;
+    font-size: 20px;
+    padding: 15px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #1A0A37, #0E091B);
+    border: 1px solid rgb(83, 37, 209);
+}
+
+.areaImagem{
+    margin-left: 150px;
+    float: left;
+}
+
+.areaImagem img{
+    width: 450px;
+}
+
+.areaTexto {
+    text-align: justify;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+#quemsou{
+    width: 100%;
+    margin-top: 130px;
+    background: var(--bold);
+    padding: 50px 30px;
+    border: 1px solid black;
+}
+
+#quemsou h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.titulo{
+    margin: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.card1 h1{
+    font-size: 20px;
+}
+
+.card1{
+    max-width: 1300px;
+    margin: 10px auto;
+    background: var(--bold);
+    padding: 25px;
+    line-height: 27px;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+.card1:hover{
+    border: 1px solid rgb(83, 37, 209);   
+    transition: 0.3s ease-in-out;
+}
+
+.linguagem{
+    max-width: 1300px;
+    margin: 10px auto;
+    background: var(--bold);
+    padding: 25px;
+    line-height: 27px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.linguagem:hover{
+    border: 1px solid rgb(83, 37, 209); 
+    transition: 0.3s ease-in-out; 
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width : 600px) {  
+    ul{
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 320px) {  
+    .titulo{
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (min-width : 1200px) {
+    #quemsou{
+        height: 570px;
+    }   
+    .areaTexto{
+        margin: 100px 150px 0 700px;
+    }
+    nav ul{
+        margin-right: 200px;
+    }
+    nav .logo{
+        margin-left: 200px;
+    }
+}
+
+@media only screen and (max-width : 1200px){
+    .areaImagem{
+        display: none;
+    }
+    
+}
